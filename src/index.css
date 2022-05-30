@@ -1,26 +1,50 @@
 .app {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .app-tilemap {
+  text-align: center;
   margin: 20px;
   width: 500px;
-  height: 500px;
-  background-color: white;
+  height: 550px;
 }
 
 .app-colorpicker {
+  text-align: center;
   margin: 20px 20px 20px 0;
   width: 200px;
-  height: 500px;
-  background-color: white;
+  height: 550px;
+  background-color: #5e5e5e;
 }
 
+.desc {
+  height: 50px;
+}
+
+.tile {
+  border: 1px dashed #5e5e5e;
+  float: left;
+  height: 24px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 24px;
+}
+
+.tile-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
 body {
   background-color:rgb(60, 60, 60);
   margin: 0;
+  color: white;
+  font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
