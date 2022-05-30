@@ -7,4 +7,4 @@ An interactive webpage app made possible using React.js library with TypeScript 
 
 **Current state:** Hovering your mouse over a tile changes its color. Visualisation below.
 
-![Visualisation of Current State]([https://i.imgur.com/DWWKUzo.gif])
+![Visualisation of Current State](https://i.imgur.com/DWWKUzo.gif)
