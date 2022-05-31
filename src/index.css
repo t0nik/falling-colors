@@ -40,6 +40,10 @@
   display: table;
 }
 
+.picked-color {
+  color: #FF0000;
+}
+
 body {
   background-color:rgb(60, 60, 60);
   margin: 0;
